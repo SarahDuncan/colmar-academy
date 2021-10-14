@@ -1,5 +1,5 @@
 body{
-    background-color: greenyellow;
+    background-color: white;
 }
 
 /*HEADER*/
@@ -33,4 +33,43 @@ body{
 
 .link{
     margin-left: 16px;
+}
+
+/*BANNER*/
+
+.banner{
+    background-color: gray;
+    display:flex;
+    
+}
+
+.banner-img-container{
+    width: 60%;
+    margin: 32px 24px;
+    overflow: hidden;
+}
+
+.banner-img-container img{
+    display:block;
+    width:100%;
+    height:100%;
+}
+
+.banner-text-container{
+    width:40%;
+    text-align: left;
+    position: relative;
+    
+}
+
+.banner-button{
+    background-color: rgba(41, 20, 80, 0.432);
+    text-align: center;
+    padding: 8px 0 8px 0;
+}
+
+.banner-text{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
