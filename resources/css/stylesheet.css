@@ -1,0 +1,36 @@
+body{
+    background-color: greenyellow;
+}
+
+/*HEADER*/
+
+.header{
+    display: flex;
+    height:64px;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.logo-section{
+    display:flex;
+    margin-left: 24px;
+}
+
+.header-heading{
+    font-size: 32px;
+    align-items: center;
+}
+
+.header-span{
+    color:gray;
+}
+
+.links-section{
+    display:flex;
+    margin-right: 24px;
+    align-items: center;
+}
+
+.link{
+    margin-left: 16px;
+}
