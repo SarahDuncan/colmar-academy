@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: gray;
 }
 
 /*HEADER*/
@@ -76,6 +76,7 @@ body{
 
 .about-section{
     display:flex;
+    background-color: white;
 }
 
 .left-container{
@@ -103,3 +104,25 @@ body{
     margin-top:24px;
 }
 
+.right-section{
+    width:40%;
+    overflow: hidden;
+}
+
+.right-container{
+    display:flex;
+    margin:32px 24px;
+}
+
+.img-container{
+width:35%;
+overflow:hidden;
+margin:16px;
+
+}
+
+.img-container img{
+    display:block;
+    width:100%;
+    height:auto;
+}
