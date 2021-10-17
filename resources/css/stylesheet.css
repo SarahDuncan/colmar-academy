@@ -369,3 +369,28 @@ text-decoration: none;
 font-size: larger;
 font-weight: bold;
 }
+
+/*  MEDIA QUERIES*/
+
+@media screen and (min-width:320px) and (max-width: 500px) {
+    html {
+      font-size: 8px;
+    }
+    .banner{
+        flex-direction: column;
+        width:100%;
+    }
+
+    .banner-img-container{
+        width:100%;
+        margin:0 auto;
+    }
+
+    .banner-text{
+        text-align: center;
+        justify-content: center;
+    }
+    .left-container{
+        display:none;
+    }
+  }
