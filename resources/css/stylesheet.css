@@ -9,6 +9,10 @@ body{
     height:64px;
     background-color: white;
     justify-content: space-between;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
 }
 
 .logo-section{
@@ -111,13 +115,12 @@ body{
 
 .right-container{
     display:flex;
-    margin:32px 24px;
 }
 
 .img-container{
 width:35%;
 overflow:hidden;
-margin:16px;
+margin:32px 24px 0 24px;
 
 }
 
@@ -125,4 +128,22 @@ margin:16px;
     display:block;
     width:100%;
     height:auto;
+}
+
+.classes-section{
+    display:block;
+    margin:32px 72px;
+}
+
+.classes-images{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.classes-images img{
+    height:auto;
+}
+
+.class{
+    margin:32px;
 }
