@@ -44,6 +44,7 @@ body{
 .banner{
     background-color: gray;
     display:flex;
+    margin-top:64px;
     
 }
 
