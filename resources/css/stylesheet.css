@@ -14,6 +14,7 @@ body{
     left:0;
     width:100%;
     z-index: 1;
+    opacity:75%;
 }
 
 .logo-section{
@@ -38,6 +39,16 @@ body{
 
 .link{
     margin-left: 16px;
+}
+
+.nav{
+    color:black;
+    text-transform:uppercase;
+    text-decoration: none;
+}
+
+.nav:hover{
+    color:rgba(109, 109, 177, 0.459);
 }
 
 /*BANNER*/
@@ -69,9 +80,16 @@ body{
 }
 
 .banner-button{
+    color:rgba(255, 255, 255, 0.644);
     background-color: rgba(2, 20, 26, 0.432);
     text-align: center;
     padding: 8px 0 8px 0;
+}
+
+.banner-button:hover{
+    background-color: white;
+    text-transform: uppercase;
+    color:black;
 }
 
 .banner-text{
@@ -125,6 +143,10 @@ body{
     display:flex;
 }
 
+.right-container-1:hover,.right-container-2:hover,.right-container-3:hover{
+    background-color:rgba(34, 57, 158, 0.432) ;
+}
+
 .right-container-2, .right-container-3{
     border-top: 1px solid gray;
 }
@@ -147,19 +169,29 @@ display: block;
     overflow: scroll;
 }
 
+.read-more{
+    color:rgba(255, 255, 255, 0.644);
+    text-decoration: none;
+}
 
+.read-more:hover{
+    font-weight:bold;
+    font-size:larger;
+}
 
 /*CLASSES SECTION*/
 
 .classes-section{
     display:block;
     width:100%;
-    margin:auto;
+    margin:0;
     background-color: rgba(34, 57, 158, 0.432);
 }
 
 .classes-section h1{
-    margin-top:32px;
+    margin:0;
+    top:0;
+    padding-top:32px;
     text-align: center;
 }
 
@@ -178,6 +210,10 @@ padding:32px 72px;
     overflow: hidden;
     background-color: white;
     margin:16px;
+}
+
+.class:hover{
+    background-color:rgba(109, 109, 177, 0.459) ;
 }
 
 .class img{
@@ -242,6 +278,10 @@ text-align: left;
     display:flex;
 }
 
+.mini-section-1:hover, .mini-section-2:hover{
+    background-color: rgba(109, 109, 177, 0.459);
+}
+
 .mini-section-image-container-1,.mini-section-image-container-2{
     width:35%;
     margin:16px;
@@ -276,4 +316,14 @@ text-align: left;
 
 .right-text-1{
 margin-right:5px;
+}
+
+.right-text-1 a, .right-text-2 a{
+color:black;
+text-decoration: none;
+}
+
+.right-text-1 a:hover, .right-text-2 a:hover{
+font-size: larger;
+font-weight: bold;
 }
