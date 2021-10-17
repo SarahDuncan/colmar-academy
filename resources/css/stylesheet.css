@@ -1,3 +1,6 @@
+html{
+    font-size:16px;
+}
 
 @font-face{
     font-family:'noto sans', sans-serif;
@@ -10,13 +13,13 @@ body{
 
 h1{
     font-family: 'noto sans',sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
 h2{
     font-family: 'noto sans',sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .quote{
@@ -27,7 +30,7 @@ h2{
 
 .header{
     display: flex;
-    height:64px;
+    height:4rem;
     background-color: white;
     justify-content: space-between;
     position: fixed;
@@ -40,11 +43,11 @@ h2{
 
 .logo-section{
     display:flex;
-    margin-left: 24px;
+    margin-left: 1.5rem;
 }
 
 .header-heading{
-    font-size: 32px;
+    font-size: 2rem;
     align-items: center;
 }
 
@@ -54,12 +57,12 @@ h2{
 
 .links-section{
     display:flex;
-    margin-right: 24px;
+    margin-right: 1.25rem;
     align-items: center;
 }
 
 .link{
-    margin-left: 16px;
+    margin-left: 1rem;
 }
 
 .nav{
@@ -77,13 +80,12 @@ h2{
 .banner{
     background-color: rgba(34, 57, 158, 0.432);
     display:flex;
-    margin-top:64px;
-    
+    margin-top:4rem;
 }
 
 .banner-img-container{
     width: 60%;
-    margin: 32px 24px;
+    margin: 2rem 1.25rem;
     overflow: hidden;
 }
 
@@ -104,17 +106,14 @@ h2{
     color:white;
     background-color: rgba(109, 109, 177, 0.459);
     text-align: center;
-    padding: 8px 0 8px 0;
-    border: 1px solid black;
+    padding: 0.5rem 0 0.5rem 0;
+    border: 0.0625rem solid black;
 }
 
 .banner-button:hover{
     background-color: white;
     text-transform: uppercase;
     color:black;
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
 }
 
 .banner-text{
@@ -126,12 +125,12 @@ h2{
 
 .banner-heading{
     font-family:'noto sans', sans-serif;
-    font-size:20px;
+    font-size:1.25rem;
 }
 
 .banner-motto{
     font-family: 'noto sans', sans-serif;
-    font-size:18px;
+    font-size:1.125rem;
 }
 
 /* ABOUT SECTION */
@@ -151,7 +150,7 @@ h2{
 
 .left-img-container{
     width:100%;
-    margin:32px 24px;
+    margin:2rem 1.5rem;
     overflow: hidden;
 }
 
@@ -162,21 +161,21 @@ h2{
 }
 
 .left-text-container{
-    margin:32px 24px;
+    margin:2rem 1.5rem;
 }
 
 .left-text-container h1{
     font-family:'noto-sans', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .left-text-container h1,p{
-    margin-top:24px;
+    margin-top:1.5rem;
 }
 
 .right-section{
     width:40%;
     overflow: hidden;
-    margin-top:32px;
+    margin-top:2rem;
 }
 
 .right-container-1,.right-container-2,.right-container-3{
@@ -188,13 +187,13 @@ h2{
 }
 
 .right-container-2, .right-container-3{
-    border-top: 1px solid gray;
+    border-top: 0.0625rem solid gray;
 }
 
 .img-container{
     display:block;
   width: 35%;
-  margin: 16px;
+  margin: 1rem;
 }
 
 .img-container img{
@@ -231,7 +230,7 @@ h2{
 .classes-section h1{
     margin:0;
     top:0;
-    padding-top:32px;
+    padding-top:2rem;
     text-align: center;
 }
 
@@ -241,7 +240,7 @@ display:flex;
 flex-wrap: wrap;
 flex-direction: row;
 justify-content: center;
-padding:32px 72px;
+padding:2rem 4.5rem;
 }
 
 .class{
@@ -249,7 +248,7 @@ padding:32px 72px;
     height:auto;
     overflow: hidden;
     background-color: white;
-    margin:16px;
+    margin:1rem;
 }
 
 .class:hover{
@@ -265,30 +264,30 @@ padding:32px 72px;
 
 .class-subject{
     text-align: left;
-    margin: 16px;
+    margin: 1rem;
 }
 
 .class-heading{
-margin:8px 16px;
+margin:0.5rem 1rem;
 text-align: left;
 }
 
 .class-description{
-    margin-top: 8px;
-    margin-bottom:16px;
-    margin-left:16px;
+    margin-top: 0.5rem;
+    margin-bottom:1rem;
+    margin-left:1rem;
 }
 
 /*THESIS SECTION*/
 
 .thesis-section{
     background-color: rgba(109, 109, 177, 0.459);
-    padding:32px 24px;
-    border-bottom: 1px solid gray;
+    padding:2rem 1.5rem;
+    border-bottom: 0.0625rem solid gray;
 }
 
 .thesis-title{
-    margin:32px auto;
+    margin:2rem auto;
     text-align: center;
 }
 .thesis-container{
@@ -298,7 +297,7 @@ text-align: left;
 .thesis-left-container{
     display:block;
     width:60%;
-    margin:32px 24px;
+    margin:2rem 1.5rem;
     overflow:hidden;
 }
 
@@ -308,11 +307,11 @@ text-align: left;
 
 .thesis-left-heading{
     top:0;
-    margin-bottom:8px;
+    margin-bottom:0.5rem;
 }
 
 .thesis-right-container{
-    margin:32px 24px;
+    margin:2rem 1.5rem;
     display:block;
     width:40%;
 }
@@ -327,7 +326,7 @@ text-align: left;
 
 .mini-section-image-container-1,.mini-section-image-container-2{
     width:35%;
-    margin:16px;
+    margin:1rem;
     height:auto;
 }
 
@@ -336,7 +335,7 @@ text-align: left;
 }
 
 .mini-section-1{
-    border-bottom:1px solid gray;
+    border-bottom:0.0625rem solid gray;
 }
 
 .mini-section-text-container{
@@ -348,7 +347,7 @@ text-align: left;
 
 .footer{
     display:flex;
-    padding:16px 24px;
+    padding:1rem 1.5rem;
     justify-content: space-between;
     background-color: rgba(109, 109, 177, 0.459);
 }
@@ -358,7 +357,7 @@ text-align: left;
 }
 
 .right-text-1{
-margin-right:5px;
+margin-right:0.3125rem;
 }
 
 .right-text-1 a, .right-text-2 a{
