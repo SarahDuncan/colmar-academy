@@ -13,6 +13,7 @@ body{
     top:0;
     left:0;
     width:100%;
+    z-index: 1;
 }
 
 .logo-section{
@@ -79,9 +80,14 @@ body{
     transform: translateY(-50%);
 }
 
+/* ABOUT SECTION */
+
 .about-section{
     display:flex;
     background-color: white;
+    padding:0;
+    margin:0;
+    
 }
 
 .left-container{
@@ -112,39 +118,144 @@ body{
 .right-section{
     width:40%;
     overflow: hidden;
+    margin-top:32px;
 }
 
-.right-container{
+.right-container-1,.right-container-2,.right-container-3{
     display:flex;
+}
+
+.right-container-2, .right-container-3{
+    border-top: 1px solid gray;
 }
 
 .img-container{
-width:35%;
-overflow:hidden;
-margin:32px 24px 0 24px;
-
+display: block;
+  width: 35%;
+  margin: 16px;
 }
 
 .img-container img{
-    display:block;
-    width:100%;
-    height:auto;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
 }
+
+.img-3{
+    width: 100%;
+    border:hotpink;
+    overflow: scroll;
+}
+
+
+
+/*CLASSES SECTION*/
 
 .classes-section{
     display:block;
-    margin:32px 72px;
+    width:100%;
+    margin:auto;
 }
 
-.classes-images{
-    display:flex;
-    flex-wrap: wrap;
+.classes-section h1{
+    margin-top:32px;
+    text-align: center;
 }
 
-.classes-images img{
-    height:auto;
+.class-image-container{
+margin:auto;
+display:flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+padding:32px 72px;
 }
 
 .class{
-    margin:32px;
+    max-width:30%;
+    height:auto;
+    overflow: hidden;
+    background-color: white;
+    margin:16px;
+}
+
+.class img{
+    width:100%;
+}
+
+.class-subject{
+    text-align: left;
+    margin: 16px;
+}
+
+.class-heading{
+margin:8px 16px;
+text-align: left;
+}
+
+.class-description{
+    margin-top: 8px;
+    margin-bottom:16px;
+    margin-left:16px;
+}
+
+/*THESIS SECTION*/
+
+.thesis-section{
+    background-color: white;
+    padding:32px 24px;
+    border-bottom: 1px solid gray;
+}
+
+.thesis-title{
+    margin:32px auto;
+    text-align: center;
+}
+.thesis-container{
+    display:flex;
+}
+
+.thesis-left-container{
+    display:block;
+    width:60%;
+    margin:32px 24px;
+    overflow:hidden;
+}
+
+.thesis-left-container video{
+    width:100%;
+}
+
+.thesis-left-heading{
+    top:0;
+    margin-bottom:8px;
+}
+
+.thesis-right-container{
+    margin:32px 24px;
+    display:block;
+    width:40%;
+}
+
+.mini-section-1,.mini-section-2{
+    display:flex;
+}
+
+.mini-section-image-container-1,.mini-section-image-container-2{
+    width:35%;
+    margin:16px;
+    height:auto;
+}
+
+.mini-section-image-container-1 img,.mini-section-image-container-2 img{
+    width:100%;
+}
+
+.mini-section-1{
+    border-bottom:1px solid gray;
+}
+
+.mini-section-text-container{
+    width:65%;
+    text-align: left;
 }
