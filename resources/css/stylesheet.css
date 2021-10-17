@@ -1,5 +1,26 @@
+
+@font-face{
+    font-family:'noto sans', sans-serif;
+    src: url('resources\fonts\Noto_Sans\NotoSans-Regular.ttf') format('truetype');
+}
+
 body{
     background-color:white;
+}
+
+h1{
+    font-family: 'noto sans',sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'noto sans',sans-serif;
+    font-size: 20px;
+}
+
+.quote{
+    font-style: italic;
 }
 
 /*HEADER*/
@@ -80,22 +101,37 @@ body{
 }
 
 .banner-button{
-    color:rgba(255, 255, 255, 0.644);
-    background-color: rgba(2, 20, 26, 0.432);
+    color:white;
+    background-color: rgba(109, 109, 177, 0.459);
     text-align: center;
     padding: 8px 0 8px 0;
+    border: 1px solid black;
 }
 
 .banner-button:hover{
     background-color: white;
     text-transform: uppercase;
     color:black;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .banner-text{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    font-family: 'noto sans', sans-serif;
+}
+
+.banner-heading{
+    font-family:'noto sans', sans-serif;
+    font-size:20px;
+}
+
+.banner-motto{
+    font-family: 'noto sans', sans-serif;
+    font-size:18px;
 }
 
 /* ABOUT SECTION */
@@ -129,6 +165,10 @@ body{
     margin:32px 24px;
 }
 
+.left-text-container h1{
+    font-family:'noto-sans', sans-serif;
+    font-size: 20px;
+}
 .left-text-container h1,p{
     margin-top:24px;
 }
@@ -152,7 +192,7 @@ body{
 }
 
 .img-container{
-display: block;
+    display:block;
   width: 35%;
   margin: 16px;
 }
@@ -165,8 +205,8 @@ display: block;
 
 .img-3{
     width: 100%;
-    border:hotpink;
-    overflow: scroll;
+    height:auto;
+    overflow: hidden;
 }
 
 .read-more{
@@ -214,6 +254,9 @@ padding:32px 72px;
 
 .class:hover{
     background-color:rgba(109, 109, 177, 0.459) ;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .class img{
