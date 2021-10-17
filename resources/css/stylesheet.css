@@ -1,5 +1,5 @@
 body{
-    background-color: gray;
+    background-color:white;
 }
 
 /*HEADER*/
@@ -43,7 +43,7 @@ body{
 /*BANNER*/
 
 .banner{
-    background-color: gray;
+    background-color: rgba(34, 57, 158, 0.432);
     display:flex;
     margin-top:64px;
     
@@ -69,7 +69,7 @@ body{
 }
 
 .banner-button{
-    background-color: rgba(41, 20, 80, 0.432);
+    background-color: rgba(2, 20, 26, 0.432);
     text-align: center;
     padding: 8px 0 8px 0;
 }
@@ -84,7 +84,7 @@ body{
 
 .about-section{
     display:flex;
-    background-color: white;
+    background-color: rgba(109, 109, 177, 0.459);
     padding:0;
     margin:0;
     
@@ -155,6 +155,7 @@ display: block;
     display:block;
     width:100%;
     margin:auto;
+    background-color: rgba(34, 57, 158, 0.432);
 }
 
 .classes-section h1{
@@ -202,7 +203,7 @@ text-align: left;
 /*THESIS SECTION*/
 
 .thesis-section{
-    background-color: white;
+    background-color: rgba(109, 109, 177, 0.459);
     padding:32px 24px;
     border-bottom: 1px solid gray;
 }
@@ -258,4 +259,21 @@ text-align: left;
 .mini-section-text-container{
     width:65%;
     text-align: left;
+}
+
+/*FOOTER*/
+
+.footer{
+    display:flex;
+    padding:16px 24px;
+    justify-content: space-between;
+    background-color: rgba(109, 109, 177, 0.459);
+}
+
+.footer-right-text{
+    display:flex;
+}
+
+.right-text-1{
+margin-right:5px;
 }
