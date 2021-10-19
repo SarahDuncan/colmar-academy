@@ -404,6 +404,7 @@ font-weight: bold;
     }
     /*Banner*/
     .banner{
+        display: flex;
         flex-direction: column;
         width:100%;
     }
@@ -411,9 +412,17 @@ font-weight: bold;
     .banner-img-container{
         width:100%;
         margin:0 auto;
+        position: relative;
     }
 
     .banner-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position:relative;
+    }
+
+    .banner{
         display: flex;
         flex-direction: column;
         align-items: center;
