@@ -418,6 +418,7 @@ font-weight: bold;
         flex-direction: column;
         width:100%;
         align-items: center;
+        background-color: rgba(34, 57, 158, 0.432) ;
     }
 
     .banner-img-container{
@@ -462,7 +463,13 @@ font-weight: bold;
     background-color:rgba(109, 109, 177, 0.459) ;
     display: flex;
     overflow: hidden;
-    padding:2rem;
+    padding:2rem 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container-mobile{
+    margin:1rem;
 }
     /*Class Section*/
 .class-image-container{
