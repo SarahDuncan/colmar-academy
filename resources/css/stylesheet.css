@@ -28,6 +28,10 @@ h2{
 
 /*HEADER*/
 
+.mobile-header{
+    display: none;
+}
+
 .header{
     display: flex;
     height:4rem;
@@ -382,6 +386,19 @@ font-weight: bold;
     html {
       font-size: 8px;
     }
+
+    /*Header*/
+    .mobile-header{
+        height:64px;
+        width: 100%;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .header{
+        display: none;
+    }
+    /*Banner*/
     .banner{
         flex-direction: column;
         width:100%;
