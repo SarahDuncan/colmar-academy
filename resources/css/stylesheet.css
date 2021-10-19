@@ -382,7 +382,7 @@ font-weight: bold;
 
 /*  MEDIA QUERIES*/
 
-@media screen and (min-width:320px) and (max-width: 500px) {
+@media screen and (max-width: 680px) {
     html {
       font-size: 8px;
     }
@@ -394,6 +394,7 @@ font-weight: bold;
         display:flex;
         justify-content: space-around;
         align-items: center;
+        z-index: 1;
     }
     .header{
         display: none;
