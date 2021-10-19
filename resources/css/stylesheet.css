@@ -150,6 +150,10 @@ border: 0.0625rem solid black;
     
 }
 
+.img-1-mobile,.img-2-mobile,.img-3-mobile{
+    display: none;
+}
+
 .left-container{
     width:60%;
     overflow: hidden;
@@ -398,9 +402,11 @@ font-weight: bold;
         background-color: white;
         opacity: 75%;
         top:0;
+        z-index: 1;
     }
     .header{
         display: none;
+        z-index: 99;
     }
     /*Banner*/
     .banner{
@@ -412,7 +418,6 @@ font-weight: bold;
     .banner-img-container{
         width:100%;
         margin:0 auto;
-        position: relative;
     }
 
     .banner-text{
@@ -420,7 +425,6 @@ font-weight: bold;
         flex-direction: column;
         align-items: center;
         position:relative;
-        margin-top:8rem;
 
     }
 
@@ -434,6 +438,14 @@ font-weight: bold;
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .img-1-mobile,.img-2-mobile,.img-3-mobile{
+        display: flex;
+    }
+
+    .img-1,.img-2,.img-3{
+        display: none;
     }
 
     .left-container{
