@@ -389,12 +389,15 @@ font-weight: bold;
 
     /*Header*/
     .mobile-header{
-        height:64px;
+        height:64x;
         width: 100%;
         display:flex;
         justify-content: space-around;
         align-items: center;
-        z-index: 1;
+        position: fixed;
+        background-color: white;
+        opacity: 75%;
+        top:0;
     }
     .header{
         display: none;
