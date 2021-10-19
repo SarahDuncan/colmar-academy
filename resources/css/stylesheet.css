@@ -470,6 +470,7 @@ font-weight: bold;
     .mob-img{
         width:100%;
         margin:1rem;
+        overflow: hidden;
     }
 
     .text-container-mobile{
