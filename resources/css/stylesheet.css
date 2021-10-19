@@ -80,6 +80,9 @@ h2{
 }
 
 /*BANNER*/
+.banner-mobile{
+    display: none;
+}
 
 .banner{
     background-color: rgba(34, 57, 158, 0.432);
@@ -414,45 +417,52 @@ font-weight: bold;
     }
 
     /*Banner*/
-    .banner{
-        flex-direction: column;
-        width:100%;
-        align-items: center;
-        background-color: rgba(34, 57, 158, 0.432) ;
-    }
+.banner{
+    display: none;
+}
 
-    .banner-img-container{
-        width:100%;
-        margin:0 auto;
-    }
+.banner-mobile{
+    display: flex;
+    flex-direction: column;
+    margin-top:4rem;
+    background-color: rgba(34, 57, 158, 0.432);
+}
 
-    .banner-text{
-        position: relative;
-        background-color: yellowgreen;
-        width: 90%;
-        justify-content: center;
-        align-items:center;
-        padding-right: 0;
-        text-align: center;
-    }
+.banner-motto-mobile{
+    margin-bottom: 1.5rem;
+}
 
-    .banner-text-container{
-        position: relative;
-        background-color: violet;
-        padding:0;
-        margin:0;
-      
-    }
+.banner-img-container-mobile img{
+    height:100%;
+    display: block;
+    margin:auto;
+    max-width:100%;
+}
 
-    .banner-text h1,.banner-text p,.banner-text a{
-        margin: auto 10px;
-        text-align: center;
-    }
+.banner-text-container-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:2rem 1rem;
+    text-align: center;
+}
 
-    .banner-button{
-        width:80%;
-        text-align: center;
-    }
+.banner-button-mobile{
+    background-color: rgba(109, 109, 177, 0.459);
+    padding: 1rem 0.5rem 1rem 0.5rem;
+border: 0.0625rem solid black;
+    text-align: center;
+}
+
+.banner-button-mobile a{
+    color:black;
+    text-decoration: none;
+}
+
+.banner-button-mobile:hover{
+    background-color: white;
+    text-transform: uppercase;
+}
 
     /*ABOUT NEW*/
 .about-section{
@@ -484,6 +494,20 @@ font-weight: bold;
 
 .text-container-mobile{
     margin:1rem;
+}
+
+.right-container-mobile:hover{
+    background-color:rgba(34, 57, 158, 0.432) ;
+}
+
+.read-more-mobile{
+    color:white;
+    text-decoration: none;
+}
+
+.read-more-mobile:hover{
+    font-weight:bold;
+    font-size:larger;
 }
     /*Class Section*/
 
